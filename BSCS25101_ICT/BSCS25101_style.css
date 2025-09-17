@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #222;
+    padding: 15px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: gold;
+}
+.hero {
+    text-align: center;
+    background: lightgray;
+    padding: 50px;
+}
+.hero h1 {
+    margin-top: 20px;
+}
+.products-preview {
+    text-align: center;
+    padding: 40px;
+}
+.btn {
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: darkorange;
+}
+.product-box {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.product-box img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 15px;
+}
+.contact-box {
+    text-align: center;
+    padding: 40px;
+}
+.socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+.socials a:hover {
+    color: darkorange;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.chat-container {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid teal;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: purple;
+  text-align: center;
+}
+.chat-log {
+  height: 250px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+#user-input {
+  width: 70%;
+  padding: 5px;
+  font-size: 14px;
+}
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
